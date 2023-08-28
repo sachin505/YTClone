@@ -1,0 +1,30 @@
+.SideNavBar{
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+}
+.SideNavBar > span > p {
+    margin-left: 20px;
+}
+.SideNavBar__history{
+    display: flex;
+    align-items: center;
+}
+.SideNavBar__yourChannel{
+    display: flex;
+    align-items: center;
+}
+.SideNavBar__yourvideos{
+    display: flex;
+    align-items: center;
+}
+.SideNavBar__watchlater{
+    display: flex;
+    align-items: center;
+}
+.SideNavBar__likedvideos{
+    display: flex;
+    align-items: center;
+}

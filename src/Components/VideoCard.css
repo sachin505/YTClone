@@ -1,0 +1,46 @@
+.VideoCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: #fafafa;
+}
+
+.VideoCard__image{
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+}
+.VideoCard__image:hover{
+    width: 550px;
+    height: 350px;
+    transition: 0.3s;
+    opacity: 1;
+}
+.overlay{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background:black;
+}
+/* .VideoCard__image:hover{
+    opacity: 0.8;
+} */
+.VideoCard:hover{
+    cursor: pointer;
+}
+.VideoCard__details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.VideoCard__icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content:space-evenly;
+}
+

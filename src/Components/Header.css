@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position:sticky;
+    top:0;
+    z-index: 100px;
+    background-color: white;
+}
+.header__logo{
+    height:25px;
+    width: 100px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.header__input{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+    justify-content: space-between;
+    border-radius: 5px;
+    object-fit: contain;
+}
+.header__mic{
+    border: 1 px solid gainsboro;
+    color:black;
+    background-color:#fafafa;
+    border-radius: 30px;
+    padding: 3px;
+}
+.header__input>input{
+    flex: 1;
+    font-weight: 400px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.header__inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    color: gray;
+    border-left: 1px solid lightgray;
+}
+.header__icons{
+    display: flex;
+    margin-right: 20px;
+    width: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+}
